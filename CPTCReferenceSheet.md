@@ -221,17 +221,6 @@ Get-WmiObject -query 'select * from win32_quickfixengineering' | foreach {$_.hot
 Get-Hotfix -description "Security update"
 ```
 
-
-
-
-
-
-
-
-
-
-
-
 **Check Clipboard**
 
 ```powershell   
@@ -245,13 +234,6 @@ $shell = New-Object -com shell.application
 $rb = $shell.Namespace(10)
 $rb.Items()
 ```
-
-
-
-
-
-
-
 
 ### ***PowerView***
 
