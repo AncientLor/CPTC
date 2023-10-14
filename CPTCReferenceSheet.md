@@ -282,6 +282,8 @@ New-MachineAccount -MachineAccount <attacker> -Password $(ConvertTo-SecureString
 
 ### **Permissions / Policy**
 
+[**ADACLScan**](https://github.com/canix1/ADACLScanner/releases/download/7.9/ADACLScan.ps1)
+
 **Interesting ACE/DACL**
 
 ```
