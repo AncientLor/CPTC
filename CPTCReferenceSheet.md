@@ -100,6 +100,12 @@ samlookuprids
 
 [**SANS PowerShell Cheat Sheet**](https://www.sans.org/blog/sans-pen-test-cheat-sheet-powershell/)
 
+**Filter Output (Grep-Like)**
+
+```powershell
+select-string -Pattern '<regex>' | % {$_.matches.value})
+```
+
 **Download / Execute Files**
 
 ```powershell
@@ -287,7 +293,6 @@ Self (Self-Membership) - ability to add yourself to a group
 #### [**LinEnum**](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
 
 #### [**LES**](https://github.com/The-Z-Labs/linux-exploit-suggester.git)
-
 
 ## Docker
 
